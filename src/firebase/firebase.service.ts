@@ -19,7 +19,7 @@ export class FirebaseService implements OnModuleInit {
       const messageData = await axios.post('https://textbelt.com/text', {
         phone: phoneNumber,
         message: message,
-        key: '255fbb6645650e9a44e56b105659e7adc720a29dq3XQ4FfEqCXRZB7Ni15RgQS1C',
+        key: 'textbelt generated key',
       });
 
       if (messageData.data.success) {
